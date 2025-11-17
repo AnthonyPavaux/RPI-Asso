@@ -3,3 +3,12 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+# page de login
+app_login:
+    path: /login
+    controller: App\Controller\SecurityController::login
+
+# déconnexion
+app_logout:
+    path: /logout
